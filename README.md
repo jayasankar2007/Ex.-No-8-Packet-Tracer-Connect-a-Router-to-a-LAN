@@ -112,9 +112,19 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on R1 and R2 (after configuration)<br>
+<img width="1918" height="1137" alt="Screenshot 2026-11-25 181228" src="https://github.com/user-attachments/assets/502fa18d-cb40-4fb0-856e-39bc340966e0" />
+
 •	show ip route on R1 and R2<br>
+<img width="1918" height="1140" alt="Screenshot 2026-11-25 181350" src="https://github.com/user-attachments/assets/e6f0667f-cdbd-495b-9c6a-5bd111e05cd5" />
+
 •	Successful ping PC1 → PC4; R2 → PC2<br>
+<img width="1918" height="1140" alt="Screenshot 2026-11-25 181423" src="https://github.com/user-attachments/assets/8d849287-54db-4aef-a830-cfdf7fa66b02" />
+
+<img width="1918" height="1138" alt="Screenshot 2026-11-25 181446" src="https://github.com/user-attachments/assets/16170017-70c5-49a6-bd1a-7490700b4681" />
+
 •	Interface up messages after no shutdown on each link <br>
+<img width="1918" height="1140" alt="Screenshot 2026-11-25 181546" src="https://github.com/user-attachments/assets/09357948-9b3b-4b7a-a6da-a74dceea72ac" />
+
 ________________________________________<br>
 # Result
 R1 and R2 were configured with correct IPv4 addresses and interface descriptions, links were brought up, routing tables showed connected networks, and end-to-end connectivity between PCs across the WAN link was verified using pings. The configurations were saved to NVRAM for persistence.<br>
